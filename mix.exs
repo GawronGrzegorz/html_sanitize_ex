@@ -39,7 +39,7 @@ defmodule HtmlSanitizeEx.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:mochiweb, "~> 2.15", override: true},
+      {:mochiweb, git: "https://github.com/mochi/mochiweb.git", tag: "v2.17.0", override: true},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
